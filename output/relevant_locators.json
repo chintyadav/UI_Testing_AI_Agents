@@ -1,0 +1,41 @@
+{
+  "query": "login and add ADIDAS ORIGINAL to cart",
+  "relevant_locators": [
+    {
+      "page": "Login Page",
+      "element_label": "email input",
+      "playwright_locator": "page.getByPlaceholder('email@example.com')",
+      "quality": "high",
+      "reason": "email input field"
+    },
+    {
+      "page": "Login Page",
+      "element_label": "password input",
+      "playwright_locator": "page.getByPlaceholder('enter your passsword')",
+      "quality": "high",
+      "reason": "password input field"
+    },
+    {
+      "page": "Login Page",
+      "element_label": "login button",
+      "playwright_locator": "page.locator('#login')",
+      "quality": "low",
+      "reason": "login button"
+    },
+    {
+      "page": "Dashboard Page",
+      "element_label": "ADIDAS ORIGINAL card",
+      "playwright_locator": "locator('.card').nth(0)",
+      "quality": "high",
+      "reason": "ADIDAS ORIGINAL product card"
+    },
+    {
+      "page": "Dashboard Page",
+      "element_label": "Add To Cart button for ADIDAS ORIGINAL",
+      "playwright_locator": "locator('.card').nth(0).getByRole('button', { name: 'Add To Cart' })",
+      "quality": "high",
+      "reason": "Add To Cart button for ADIDAS ORIGINAL product"
+    }
+  ],
+  "summary": "To execute the query, first login to the application using the email and password input fields, then navigate to the dashboard page and add the ADIDAS ORIGINAL product to the cart using the Add To Cart button."
+}

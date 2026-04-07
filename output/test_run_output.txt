@@ -1,0 +1,33 @@
+Running 1 test using 1 worker
+
+[1A[2K[1/1] [chromium] â€º output\tests\alltest.spec.js:7:5 â€º end-to-end test
+[1A[2K  1) [chromium] â€º output\tests\alltest.spec.js:7:5 â€º end-to-end test â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+    [2m  - waiting for locator('#login').first()[22m
+    [2m    - locator resolved to <input id="login" name="login" type="submit" value="Login" _ngcontent-agn-c31="" class="btn btn-block login-btn"/>[22m
+    [2m  - attempting click action[22m
+    [2m    - waiting for element to be visible, enabled and stable[22m
+    [2m  - element was detached from the DOM, retrying[22m
+
+
+       at ..\pages\LoginPage.js:53
+
+      51 |
+      52 |   async clickLogin_4() {
+    > 53 |     await this.page.locator("#login").nth(0).click();
+         |                                              ^
+      54 |   }
+      55 |
+      56 |   async enterEmail_5(value) {
+        at LoginPage.clickLogin_4 (D:\PlaywrightAgent\output\pages\LoginPage.js:53:46)
+        at D:\PlaywrightAgent\output\tests\alltest.spec.js:28:19
+
+    Error Context: test-results\alltest-end-to-end-test-chromium\error-context.md
+
+
+[1A[2K  1 failed
+    [chromium] â€º output\tests\alltest.spec.js:7:5 â€º end-to-end test â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€

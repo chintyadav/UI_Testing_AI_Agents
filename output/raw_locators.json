@@ -1,0 +1,556 @@
+[
+  {
+    "page": "Login Page",
+    "url": "https://rahulshettyacademy.com/client/#/auth/login",
+    "meta": {
+      "title": "Let's Shop",
+      "h1": [
+        "Practice Website for Rahul Shetty Academy Students",
+        "Log in",
+        "Why People Choose Us?",
+        "3546540",
+        "37653",
+        "3243",
+        "4500+",
+        "500+"
+      ],
+      "h2": []
+    },
+    "elements": [
+      {
+        "tag": "a",
+        "type": "",
+        "inner_text": "dummywebsite@rahulshettyacademy.com",
+        "label": "dummywebsite@rahulshettyacademy.com",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"link\", { name: \"dummywebsite@rahulshettyacademy.com\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "a",
+        "type": "",
+        "inner_text": "Register",
+        "label": "Register",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"link\", { name: \"Register\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "input",
+        "type": "email",
+        "inner_text": "",
+        "label": "email@example.com",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByPlaceholder",
+          "code": "getByPlaceholder(\"email@example.com\")",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "input",
+        "type": "password",
+        "inner_text": "",
+        "label": "enter your passsword",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByPlaceholder",
+          "code": "getByPlaceholder(\"enter your passsword\")",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "input",
+        "type": "submit",
+        "inner_text": "",
+        "label": "login",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "locator",
+          "code": "locator(\"#login\")",
+          "quality": "low",
+          "warning": "CSS fallback"
+        }
+      },
+      {
+        "tag": "a",
+        "type": "",
+        "inner_text": "Forgot password?",
+        "label": "Forgot password?",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"link\", { name: \"Forgot password?\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "a",
+        "type": "",
+        "inner_text": "Register here",
+        "label": "Register here",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"link\", { name: \"Register here\" })",
+          "quality": "high"
+        }
+      }
+    ],
+    "product_cards": [],
+    "count": 7
+  },
+  {
+    "page": "Dashboard Page",
+    "url": "https://rahulshettyacademy.com/client/#/dashboard/dash",
+    "meta": {
+      "title": "Let's Shop",
+      "h1": [],
+      "h2": []
+    },
+    "elements": [
+      {
+        "tag": "a",
+        "type": "",
+        "inner_text": "Join Rahul Shetty for a QA Career Meetup in CHENNAI \u2014 Book Your Spot",
+        "label": "Join Rahul Shetty for a QA Career Meetup in CHENNAI \u2014 Book Your Spot",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"link\", { name: \"Join Rahul Shetty for a QA Career Meetup in CHENNAI \u2014 Book Your Spot\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "inner_text": "HOME",
+        "label": "HOME",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"button\", { name: \"HOME\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "inner_text": "ORDERS",
+        "label": "ORDERS",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"button\", { name: \"ORDERS\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "inner_text": "Cart",
+        "label": "Cart",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"button\", { name: \"Cart\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "inner_text": "Sign Out",
+        "label": "Sign Out",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"button\", { name: \"Sign Out\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "inner_text": "",
+        "label": "search",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByPlaceholder",
+          "code": "getByPlaceholder(\"search\")",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "inner_text": "",
+        "label": "Min Price",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByPlaceholder",
+          "code": "getByPlaceholder(\"Min Price\")",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "inner_text": "",
+        "label": "Max Price",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByPlaceholder",
+          "code": "getByPlaceholder(\"Max Price\")",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "inner_text": "View",
+        "label": "View",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"button\", { name: \"View\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "inner_text": "Add To Cart",
+        "label": "Add To Cart",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"button\", { name: \"Add To Cart\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "inner_text": "View",
+        "label": "View",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"button\", { name: \"View\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "inner_text": "Add To Cart",
+        "label": "Add To Cart",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"button\", { name: \"Add To Cart\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "inner_text": "View",
+        "label": "View",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"button\", { name: \"View\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "inner_text": "Add To Cart",
+        "label": "Add To Cart",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"button\", { name: \"Add To Cart\" })",
+          "quality": "high"
+        }
+      }
+    ],
+    "product_cards": [
+      {
+        "index": 0,
+        "title": "ADIDAS ORIGINAL",
+        "price": "ADIDAS ORIGINAL",
+        "img_alt": "",
+        "button_text": "View",
+        "btn_locator": "locator(\".card\").nth(0).getByRole(\"button\", { name: \"View\" })"
+      },
+      {
+        "index": 1,
+        "title": "ZARA COAT 3",
+        "price": "ZARA COAT 3",
+        "img_alt": "",
+        "button_text": "View",
+        "btn_locator": "locator(\".card\").nth(1).getByRole(\"button\", { name: \"View\" })"
+      },
+      {
+        "index": 2,
+        "title": "IPHONE 13 PRO",
+        "price": "IPHONE 13 PRO",
+        "img_alt": "",
+        "button_text": "View",
+        "btn_locator": "locator(\".card\").nth(2).getByRole(\"button\", { name: \"View\" })"
+      }
+    ],
+    "count": 14
+  },
+  {
+    "page": "ADIDAS ORIGINAL",
+    "url": "https://rahulshettyacademy.com/client/#/dashboard/dash",
+    "meta": {
+      "title": "Let's Shop",
+      "h1": [],
+      "h2": []
+    },
+    "elements": [
+      {
+        "tag": "a",
+        "type": "",
+        "inner_text": "Join Rahul Shetty for a QA Career Meetup in CHENNAI \u2014 Book Your Spot",
+        "label": "Join Rahul Shetty for a QA Career Meetup in CHENNAI \u2014 Book Your Spot",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"link\", { name: \"Join Rahul Shetty for a QA Career Meetup in CHENNAI \u2014 Book Your Spot\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "inner_text": "HOME",
+        "label": "HOME",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"button\", { name: \"HOME\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "inner_text": "ORDERS",
+        "label": "ORDERS",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"button\", { name: \"ORDERS\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "inner_text": "Cart",
+        "label": "Cart",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"button\", { name: \"Cart\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "inner_text": "Sign Out",
+        "label": "Sign Out",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"button\", { name: \"Sign Out\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "inner_text": "",
+        "label": "search",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByPlaceholder",
+          "code": "getByPlaceholder(\"search\")",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "inner_text": "",
+        "label": "Min Price",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByPlaceholder",
+          "code": "getByPlaceholder(\"Min Price\")",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "inner_text": "",
+        "label": "Max Price",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByPlaceholder",
+          "code": "getByPlaceholder(\"Max Price\")",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "inner_text": "View",
+        "label": "View",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"button\", { name: \"View\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "inner_text": "Add To Cart",
+        "label": "Add To Cart",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"button\", { name: \"Add To Cart\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "inner_text": "View",
+        "label": "View",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"button\", { name: \"View\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "inner_text": "Add To Cart",
+        "label": "Add To Cart",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"button\", { name: \"Add To Cart\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "inner_text": "View",
+        "label": "View",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"button\", { name: \"View\" })",
+          "quality": "high"
+        }
+      },
+      {
+        "tag": "button",
+        "type": "",
+        "inner_text": "Add To Cart",
+        "label": "Add To Cart",
+        "required": false,
+        "disabled": false,
+        "locator": {
+          "strategy": "getByRole",
+          "code": "getByRole(\"button\", { name: \"Add To Cart\" })",
+          "quality": "high"
+        }
+      }
+    ],
+    "product_cards": [
+      {
+        "index": 0,
+        "title": "ADIDAS ORIGINAL",
+        "price": "ADIDAS ORIGINAL",
+        "img_alt": "",
+        "button_text": "View",
+        "btn_locator": "locator(\".card\").nth(0).getByRole(\"button\", { name: \"View\" })"
+      },
+      {
+        "index": 1,
+        "title": "ZARA COAT 3",
+        "price": "ZARA COAT 3",
+        "img_alt": "",
+        "button_text": "View",
+        "btn_locator": "locator(\".card\").nth(1).getByRole(\"button\", { name: \"View\" })"
+      },
+      {
+        "index": 2,
+        "title": "IPHONE 13 PRO",
+        "price": "IPHONE 13 PRO",
+        "img_alt": "",
+        "button_text": "View",
+        "btn_locator": "locator(\".card\").nth(2).getByRole(\"button\", { name: \"View\" })"
+      }
+    ],
+    "count": 14
+  }
+]
